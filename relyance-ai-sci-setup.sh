@@ -10,7 +10,4 @@ sudo usermod -aG docker $USER
 which gcloud
 gcloud auth configure-docker us-west1-docker.pkg.dev --quiet
 
-
-gcloud artifacts repositories list
-
 docker pull us-west1-docker.pkg.dev/relyance-internal/planetscale-sci-images/sci:planetscale
