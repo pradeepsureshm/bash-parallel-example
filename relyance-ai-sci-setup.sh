@@ -6,4 +6,5 @@ export PATH=$PATH:~/google-cloud-sdk/bin
 
 sudo yum install docker -y
 sudo usermod -aG docker $USER
-docker images
+
+gcloud auth configure-docker us-west1-docker.pkg.dev
