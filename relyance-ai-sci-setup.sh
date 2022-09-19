@@ -2,9 +2,7 @@ sudo yum update -y
 curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-402.0.0-linux-x86_64.tar.gz
 tar -xf google-cloud-cli-402.0.0-linux-x86_64.tar.gz
 ./google-cloud-sdk/install.sh --quiet
-ls
-ls ~/google-cloud-sdk/bin
-export PATH=$PATH:~/google-cloud-sdk/bin
+export PATH=$PATH:$(pwd)/google-cloud-sdk/bin
 
 sudo yum install docker -y
 sudo usermod -aG docker $USER
