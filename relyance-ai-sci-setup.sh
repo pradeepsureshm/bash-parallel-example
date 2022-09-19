@@ -1,3 +1,5 @@
 sudo yum update -y
-sudo yum install gcloud -y 
-which gcloud
+curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-402.0.0-linux-x86_64.tar.gz
+tar -xf google-cloud-cli-402.0.0-linux-x86_64.tar.gz
+./google-cloud-sdk/install.sh --quiet
+export PATH=$PATH:~/google-cloud-sdk/bin
