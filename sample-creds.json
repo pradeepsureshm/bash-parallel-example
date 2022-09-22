@@ -1,6 +1,6 @@
 {
   "type": "external_account",
-  "audience": "//iam.googleapis.com/projects/892114676652/locations/global/workloadIdentityPools/awspool/providers/pentest1-provider-test2",
+  "audience": "//iam.googleapis.com/projects/892114676652/locations/global/workloadIdentityPools/sci-aws-pool/providers/pentest1-aws-provider",
   "subject_token_type": "urn:ietf:params:aws:token-type:aws4_request",
   "service_account_impersonation_url": "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/pentest1-tenant-access@relyance-prod.iam.gserviceaccount.com:generateAccessToken",
   "token_url": "https://sts.googleapis.com/v1/token",
