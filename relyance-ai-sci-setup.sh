@@ -8,6 +8,10 @@ sudo yum install docker -y
 sudo usermod -aG docker $USER
 
 which gcloud
-gcloud auth configure-docker us-west1-docker.pkg.dev --quiet
+#gcloud auth configure-docker us-west1-docker.pkg.dev --quiet
 
-docker pull us-west1-docker.pkg.dev/relyance-internal/planetscale-sci-images/sci:planetscale
+gcloud auth configure-docker us-docker.pkg.dev --quiet
+
+#docker pull us-west1-docker.pkg.dev/relyance-ext/pentest1/sci:planetscale
+
+docker pull us-docker.pkg.dev/relyance-ext/pentest1/sci:latest
