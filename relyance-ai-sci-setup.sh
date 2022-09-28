@@ -15,3 +15,7 @@ gcloud auth configure-docker us-docker.pkg.dev --quiet
 #docker pull us-west1-docker.pkg.dev/relyance-ext/pentest1/sci:planetscale
 
 docker pull us-docker.pkg.dev/relyance-ext/pentest1/sci:latest
+
+git clone https://github.com/GoogleCloudPlatform/microservices-demo.git
+
+docker run --rm -v `pwd`:/repo us-docker.pkg.dev/relyance-ext/pentest1/sci:latest
