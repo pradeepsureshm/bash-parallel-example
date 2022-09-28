@@ -1,0 +1,11 @@
+# Relyance Compliance Inspector Configuration
+
+# Product and Repository Metadata
+# Purpose: Useful to slice/dice the Data Inventory and Data Map in Relyance
+repository: relyance
+services:
+  - service: ui
+    product:
+      - product1
+    source:
+      - .
