@@ -16,9 +16,9 @@ gcloud auth configure-docker us-docker.pkg.dev --quiet
 
 docker pull us-docker.pkg.dev/relyance-ext/pentest1/sci:latest
 
-git clone https://github.com/GoogleCloudPlatform/microservices-demo.git
+#git clone https://github.com/GoogleCloudPlatform/microservices-demo.git
 
-unset CLOUDSDK_CORE_PROJECT
-unset CLOUDSDK_AUTH_CREDENTIAL_FILE_OVERRIDE
+#unset CLOUDSDK_CORE_PROJECT
+#unset CLOUDSDK_AUTH_CREDENTIAL_FILE_OVERRIDE
 
 docker run --rm -v `pwd`:/repo us-docker.pkg.dev/relyance-ext/pentest1/sci:latest
