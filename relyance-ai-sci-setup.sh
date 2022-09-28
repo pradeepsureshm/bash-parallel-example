@@ -21,4 +21,6 @@ docker pull us-docker.pkg.dev/relyance-ext/pentest1/sci:latest
 unset CLOUDSDK_CORE_PROJECT
 unset CLOUDSDK_AUTH_CREDENTIAL_FILE_OVERRIDE
 
+echo $CLOUDSDK_CORE_PROJECT
+
 docker run --rm -v `pwd`:/repo us-docker.pkg.dev/relyance-ext/pentest1/sci:latest
