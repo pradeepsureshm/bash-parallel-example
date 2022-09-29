@@ -18,8 +18,8 @@ docker pull us-docker.pkg.dev/relyance-ext/pentest1/sci:latest
 
 #git clone https://github.com/GoogleCloudPlatform/microservices-demo.git
 
-unset CLOUDSDK_CORE_PROJECT
-unset CLOUDSDK_AUTH_CREDENTIAL_FILE_OVERRIDE
+#unset CLOUDSDK_CORE_PROJECT
+#unset CLOUDSDK_AUTH_CREDENTIAL_FILE_OVERRIDE
 
 echo "Hello" $CLOUDSDK_CORE_PROJECT "ADC" $GOOGLE_APPLICATION_CREDENTIALS
 
